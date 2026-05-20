@@ -10,7 +10,7 @@ int calcularPontuacao(int criticidade, int pacientes, int tempo, int energia) {
 //exibir alertas
 void verificarAlertas(int criticidade, int pacientes, int tempo, int energia) {
     if (tempo > 80 && criticidade > 70) {
-        cout << " ALerta:Risco de falha iminente" << endl;
+        cout << " ALerta: Risco de falha iminente" << endl;
     }
     if (energia > 90) {
         cout << " Alerta:Sobrecarga de energia" << endl;
